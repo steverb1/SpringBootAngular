@@ -12,23 +12,8 @@
     <artifactId>SpringBootAngular</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringBootAngular</name>
-    <description>SpringBootAngular</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
-    <properties>
-        <java.version>23</java.version>
-    </properties>
+    <packaging>jar</packaging>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -58,5 +43,9 @@
             </plugin>
         </plugins>
     </build>
+
+    <properties>
+        <start-class>com.example.application.Application</start-class>
+    </properties>
 
 </project>
